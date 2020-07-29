@@ -1,19 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
-
 @font-face {
   font-family: Glacial-Regular;
   src: url(../fonts/WEB/GlacialIndifference-Regular.woff);
 }
+
 @font-face {
   font-family: Glacial-Bold;
   src: url(../fonts/WEB/GlacialIndifference-Bold.woff);
 }
-$Font-Pt-Sans: "PT Sans", sans-serif;
-$Font-Glacial-Regular: Glacial-Regular;
-$Font-Glacial-Bold: Glacial-Bold;
 
 /*Body Background*/
-$Body-Background: rgb(82, 86, 89);
-
 /*Yellow curriculum background color*/
-$Orange-Curriculum: #f2c53d;
+.curriculum-information-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Glacial-Bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: #f2c53d;
+  font-weight: bold;
+}
