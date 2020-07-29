@@ -96,4 +96,44 @@ body {
 
 .curriculum-container .curriculum-right {
   background: #f2c53d;
+  padding: 4rem 3rem 2rem 2rem;
+  /*Main Titles like EXPERIENCIA/HABILIDADES/EDUCACION*/
+  /*Card*/
+  /*Skills Container*/
+}
+
+.curriculum-container .curriculum-right .curriculum-right-main-titles {
+  margin-bottom: 0.6rem;
+}
+
+.curriculum-container .curriculum-right .right-information-card {
+  /*cARD TITLE*/
+  /*Card Role*/
+  /*Card List Information*/
+}
+
+.curriculum-container .curriculum-right .right-information-card .right-information-title {
+  margin-bottom: 0.5rem;
+}
+
+.curriculum-container .curriculum-right .right-information-card .right-information-role {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+}
+
+.curriculum-container .curriculum-right .right-information-card .right-information-list {
+  padding-left: 1rem;
+}
+
+.curriculum-container .curriculum-right .right-information-card .right-information-list .right-information-list-item {
+  font-size: 11px;
+  margin-bottom: 1rem;
+}
+
+.curriculum-container .curriculum-right .skills-container {
+  padding-left: 1rem;
+}
+
+.curriculum-container .curriculum-right .skills-container .skill-list li {
+  font-size: 11px;
 }

@@ -80,5 +80,43 @@ body {
 
   .curriculum-right {
     background: $Orange-Curriculum;
+    padding: 4rem 3rem 2rem 2rem;
+
+    /*Main Titles like EXPERIENCIA/HABILIDADES/EDUCACION*/
+    .curriculum-right-main-titles {
+      margin-bottom: 0.6rem;
+    }
+    /*Card*/
+    .right-information-card {
+      /*cARD TITLE*/
+      .right-information-title {
+        margin-bottom: 0.5rem;
+      }
+      /*Card Role*/
+      .right-information-role {
+        margin-bottom: 0.5rem;
+        font-size: 12px;
+      }
+
+      /*Card List Information*/
+      .right-information-list {
+        padding-left: 1rem;
+        .right-information-list-item {
+          font-size: 11px;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    /*Skills Container*/
+    .skills-container {
+      padding-left: 1rem;
+
+      .skill-list {
+        li {
+          font-size: 11px;
+        }
+      }
+    }
   }
 }

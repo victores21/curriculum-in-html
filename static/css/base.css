@@ -11,12 +11,14 @@
 
 /*Body Background*/
 /*Yellow curriculum background color*/
+/*Titles for curriculum*/
 .curriculum-information-title {
   font-size: 16px;
   font-weight: bold;
   font-family: Glacial-Bold;
 }
 
+/*A tag*/
 a {
   text-decoration: none;
   color: #000;
@@ -25,5 +27,14 @@ a {
 
 a:hover {
   color: #f2c53d;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Glacial-Bold;
+}
+
+/*Font-weight Bold for text*/
+.text_bold {
   font-weight: bold;
 }
