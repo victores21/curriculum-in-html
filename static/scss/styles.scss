@@ -155,6 +155,14 @@ body {
     margin: 4rem 18%;
   }
 }
+//Media query for 1440px
+@media (min-width: 1440px) {
+  .curriculum-container {
+    .border-x {
+      left: 38.4%;
+    }
+  }
+}
 //Media query for 1500px
 @media (min-width: 1500px) {
   body {

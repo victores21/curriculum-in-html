@@ -179,6 +179,12 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  .curriculum-container .border-x {
+    left: 38.4%;
+  }
+}
+
 @media (min-width: 1500px) {
   body {
     margin: 4rem 20%;
