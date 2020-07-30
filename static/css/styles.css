@@ -202,18 +202,18 @@ body {
     left: 38.4%;
   }
   .curriculum-container .curriculum-left .profile-curriculum .profile-role .profile-role-text {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .curriculum-container .curriculum-left .personal-information .curriculum-information-title {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .curriculum-container .curriculum-left .personal-information .personal-information-description {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .curriculum-container .curriculum-left .contact-information .contact-information-description {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .curriculum-container .curriculum-right .skills-container .skill-list li {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }

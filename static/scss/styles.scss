@@ -188,23 +188,24 @@ body {
       .profile-curriculum {
         .profile-role {
           .profile-role-text {
-            font-size: 14px;
+            font-size: 14px !important;
           }
         }
       }
+
       //personal-information
       .personal-information {
         .curriculum-information-title {
-          font-size: 18px;
+          font-size: 18px !important;
         }
         .personal-information-description {
-          font-size: 16px;
+          font-size: 16px !important;
         }
       }
       //Contact Info
       .contact-information {
         .contact-information-description {
-          font-size: 16px;
+          font-size: 16px !important;
         }
       }
     }
@@ -215,7 +216,7 @@ body {
       .skills-container {
         .skill-list {
           li {
-            font-size: 16px;
+            font-size: 16px !important;
           }
         }
       }

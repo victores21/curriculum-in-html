@@ -44,12 +44,12 @@ h3 {
     /*Project Name/Company name*/
   }
   .right-information-card .right-information-title {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .right-information-card .right-information-role {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .right-information-card .right-information-list .right-information-list-item {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
