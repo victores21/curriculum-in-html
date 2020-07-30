@@ -38,3 +38,18 @@ h3 {
 .text_bold {
   font-weight: bold;
 }
+
+@media (min-width: 1920px) {
+  .right-information-card {
+    /*Project Name/Company name*/
+  }
+  .right-information-card .right-information-title {
+    font-size: 16px;
+  }
+  .right-information-card .right-information-role {
+    font-size: 14px;
+  }
+  .right-information-card .right-information-list .right-information-list-item {
+    font-size: 14px;
+  }
+}

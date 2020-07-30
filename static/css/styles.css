@@ -17,11 +17,14 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
+  max-width: 100%;
 }
 
 body {
   background: #525659;
-  margin: 4rem 24%;
+  margin: 4rem 10%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .curriculum-container {
@@ -29,7 +32,29 @@ body {
   display: grid;
   -ms-grid-columns: 0.65fr 1fr;
       grid-template-columns: 0.65fr 1fr;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  max-width: 1080px;
   /*Curriculum Left*/
+}
+
+.curriculum-container .border-x {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 38%;
+  z-index: 5;
+}
+
+.curriculum-container .border-x img {
+  height: 20px;
+  margin: 0.3rem 0;
 }
 
 .curriculum-container .curriculum-left {
@@ -130,10 +155,55 @@ body {
   margin-bottom: 1rem;
 }
 
-.curriculum-container .curriculum-right .skills-container {
+.curriculum-container .curriculum-right .skills-container .skill-list {
   padding-left: 1rem;
 }
 
 .curriculum-container .curriculum-right .skills-container .skill-list li {
   font-size: 11px;
+}
+
+@media (min-width: 1100px) {
+  body {
+    margin: 4rem 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin: 4rem 18%;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    margin: 4rem 20%;
+  }
+}
+
+@media (min-width: 1700px) {
+  body {
+    margin: 4rem 22%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .curriculum-container .border-x {
+    left: 38.4%;
+  }
+  .curriculum-container .curriculum-left .profile-curriculum .profile-role .profile-role-text {
+    font-size: 14px;
+  }
+  .curriculum-container .curriculum-left .personal-information .curriculum-information-title {
+    font-size: 18px;
+  }
+  .curriculum-container .curriculum-left .personal-information .personal-information-description {
+    font-size: 16px;
+  }
+  .curriculum-container .curriculum-left .contact-information .contact-information-description {
+    font-size: 16px;
+  }
+  .curriculum-container .curriculum-right .skills-container .skill-list li {
+    font-size: 16px;
+  }
 }
